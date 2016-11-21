@@ -4,9 +4,9 @@ sysroots/x86_64-oesdk-linux/usr/bin/qt5/qmake
 make
 
 Files to deploy:
-qt-smart-demo                         -> /opt/com.genivi.gdp.connectedhome/bin/qt-smart-demo
-com.genivi.gdp.connectedhome.svg      -> /opt/com.genivi.gdp.connectedhome/share/icons/com.genivi.gdp.connectedhome.svg
-com.genivi.gdp.connectedhome.app      -> /usr/share/applications/com.genivi.gdp.connectedhome.app
-com.genivi.gdp.connectedhome.service  -> /usr/lib/systemd/user/com.genivi.gdp.connectedhome.service
+qt-smart-demo                         -> /opt/com.genivi.gdp.qml-music/bin/qt-smart-demo
+com.genivi.gdp.qml-music.svg      -> /opt/com.genivi.gdp.qml-music/share/icons/com.genivi.gdp.qml-music.svg
+com.genivi.gdp.qml-music.app      -> /usr/share/applications/com.genivi.gdp.qml-music.app
+com.genivi.gdp.qml-music.service  -> /usr/lib/systemd/user/com.genivi.gdp.qml-music.service
 
 Given this install the launcher will automatically find the appliciation.

@@ -40,7 +40,7 @@ Window {
             z: 10
             MouseArea {
                 id: mouseAreaTop
-                onClicked: { leavingDisplay.stateVisible = true }
+                onClicked: { playDisplay.stateVisible = true }
                 width: 600
                 height: 200
                 z: 10
@@ -122,7 +122,7 @@ Window {
 
         // Display a notification that tells the user the vehicle is moving.
         Rectangle {
-            id: leavingDisplay
+            id: playDisplay
             property bool stateVisible: false
 
             states: [
@@ -258,7 +258,8 @@ Window {
             height: 140
             width: 160
             z: 13
-            source: "qrc:/img/genivi-logo.png"
+            //source: "qrc:/img/genivi-logo.png"
+	    source: "http://musicmeta.phinf.naver.net/album/001/114/1114513.jpg"
         }
 
         Image {
