@@ -81,7 +81,7 @@ Window {
             Text {
                 id: textMiddle
                 anchors.centerIn: parent
-                text: qsTr("Coming Home")
+                text: qsTr("erlim Coming Home")
                 font.family: oswald.name
                 font.pixelSize: 60
             }
